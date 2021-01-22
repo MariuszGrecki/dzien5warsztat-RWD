@@ -1,0 +1,104 @@
+
+.statystyk{
+  height: 531px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  @media #{$media-phone} {
+    height: 730px;
+    justify-content: flex-start;
+  }
+}
+.statystyki{
+  height: 340px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  @media #{$media-phone} {
+    flex-direction: column;
+  }
+}
+.statystyktitle{
+  font-size: 42px;
+  font-family: $font-raleway;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  @media #{$media-phone} {
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align:  center;
+    padding-top: 40px;
+   padding-bottom: 20px;
+}
+}
+.statystyki-section {
+  height: 168px;
+  width: 163px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media #{$media-phone} {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+.statystyki-section:nth-child(2){
+  margin-top: 19px;
+}
+.kolko1{
+  background-color: $kolor-red;
+  border-radius: 50%;
+  height: 63px;
+  width: 63px;
+  z-index: -1;
+
+}
+.kolko2{
+  background-color: $kolor-blue;
+  border-radius: 50%;
+  height: 63px;
+  width: 63px;
+  z-index: -1;
+}
+.kolko3{
+  background-color: $kolor-green;
+  border-radius: 50%;
+  height: 63px;
+  width: 63px;
+  z-index: -1;
+}
+.statystyk-image{
+  position: relative;
+  left: 50%;
+}
+.statystyk-image2{
+  position: relative;
+  left: 50%;
+  top: 15px;
+}
+.statystyk-image3{
+  position: relative;
+  left: 50%;
+  top: 8px;
+}
+.body1-statystyki{
+  letter-spacing: 6px;
+  font-size: 24px;
+  font-family: $font-raleway;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.body2-statystyki
+{
+  font-size: 19px;
+  font-family: $font-raleway;
+  color: #A5A5A5;
+  text-align: center;
+}

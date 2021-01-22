@@ -6,8 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>BestShop</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;700;800&display=swap"
           rel="stylesheet">
@@ -17,6 +16,7 @@
     <div class="container">
         <div class="header-container">
             <h1 class="logo"> BestShop </h1>
+            <img src="assets/mail-icon.svg" alt="" class="logo-icon">
             <nav class="nav-header">
                 <ul class="ul-header">
                     <li class="li-header"><a class="header-link" href="#">Why Us</a></li>
@@ -42,12 +42,12 @@
         <div class="statystyki-section">
             <p class="kolko1"><img src="assets/person.svg" alt="" class="statystyk-image"></p>
             <p class="body1-statystyki">100000+</p>
-            <p class="body2-statystyki" >daily entries</p>
+            <p class="body2-statystyki">daily entries</p>
         </div>
         <div class="statystyki-section">
             <p class="kolko2"><img src="assets/eye.svg" alt="" class="statystyk-image2"></p>
             <p class="body1-statystyki">200000+</p>
-            <p class="body2-statystyki" >seen products every day</p>
+            <p class="body2-statystyki">seen products every day</p>
         </div>
         <div class="statystyki-section">
             <p class="kolko3"><img src="assets/catalog.svg" alt="" class="statystyk-image3"></p>
@@ -64,7 +64,7 @@
             <p class="benefits-text1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam
                 architecto delectus ducimus excepturi iste natus omnis placeat quam reprehenderit sit totam, unde.
                 Minima.</p>
-            <p class="benefits_underline" >__________</p>
+            <p class="benefits_underline">__________</p>
         </div>
         <div class="benefits1-image">
             <p class="benefits-back-laptop"></p>
@@ -106,43 +106,58 @@
     <h3 class="statystyktitle">Pricing</h3>
     <div class="pricing-section">
         <div class="left">
-            <p class="pricing1">Basic</p>
-            <p class="pricing2left">$0</p>
-            <ul class="pricing-ulleft">
-                <li class="pricing-li"><p class="pricing-p">100MB HDD</p></li>
-                <li class="pricing-li"><p class="pricing-p">1 subdomain</p></li>
-                <li class="pricing-li"><p class="pricing-p">2 e-mails</p></li>
-                <li class="pricing-li"><p class="pricing-x">Two years License</p></li>
-                <li class="pricing-li"><p class="pricing-x">Full support</p></li>
-            </ul>
-            <a href="" class="btn-left">Begin</a>
+            <div class="pricin-half">
+                <p class="pricing1">Basic</p>
+                <p class="pricing2left">$0</p>
+                <a href="" class="btn-left">Begin</a>
+            </div>
+            <div class="pricin-half">
+                <ul class="pricing-ulleft">
+                    <li class="pricing-li"><p class="pricing-p">100MB HDD</p></li>
+                    <li class="pricing-li"><p class="pricing-p">1 subdomain</p></li>
+                    <li class="pricing-li"><p class="pricing-p">2 e-mails</p></li>
+                    <li class="pricing-li"><p class="pricing-x">Two years License</p></li>
+                    <li class="pricing-li"><p class="pricing-x">Full support</p></li>
+                </ul>
+            </div>
+
 
         </div>
         <div class="center">
-            <p class="pricing1">Professional</p>
-            <p class="pricing2center">$25</p>
-            <p class="pricing3">Limited offer</p>
-            <ul class="pricing-ulcenter">
-                <li class="pricing-li"><p class="pricing-p">100MB HDD</p></li>
-                <li class="pricing-li"><p class="pricing-p">1 subdomain</p></li>
-                <li class="pricing-li"><p class="pricing-p">2 e-mails</p></li>
-                <li class="pricing-li"><p class="pricing-p">Two years License</p></li>
-                <li class="pricing-li"><p class="pricing-x">Full support</p></li>
-            </ul>
-            <a href="" class="btn">Begin</a>
+            <div class="pricin-half">
+                <p class="pricing1">Professional</p>
+                <p class="pricing2center">$25</p>
+                <p class="pricing3">Limited offer</p>
+                <a href="" class="btn">Begin</a>
+            </div>
+            <div class="pricin-half">
+                <ul class="pricing-ulcenter">
+                    <li class="pricing-li"><p class="pricing-p">100MB HDD</p></li>
+                    <li class="pricing-li"><p class="pricing-p">1 subdomain</p></li>
+                    <li class="pricing-li"><p class="pricing-p">2 e-mails</p></li>
+                    <li class="pricing-li"><p class="pricing-p">Two years License</p></li>
+                    <li class="pricing-li"><p class="pricing-x">Full support</p></li>
+                </ul>
+            </div>
+
         </div>
         <div class="last">
-            <p class="pricing1">Premium</p>
-            <p class="pricing2last">$60</p>
-            <p class="pricing3">Limited offer</p>
-            <ul class="pricing-ullast">
-                <li class="pricing-li"><p class="pricing-p">100MB HDD</p></li>
-                <li class="pricing-li"><p class="pricing-p">1 subdomain</p></li>
-                <li class="pricing-li"><p class="pricing-p">2 e-mails</p></li>
-                <li class="pricing-li"><p class="pricing-p">Two years License</p></li>
-                <li class="pricing-li"><p class="pricing-p">Full support</p></li>
-            </ul>
-            <a href="" class="btn-last">Begin</a>
+            <div class="pricin-half">
+                <p class="pricing1">Premium</p>
+                <p class="pricing2last">$60</p>
+                <p class="pricing3">Limited offer</p>
+                <a href="" class="btn-last">Begin</a>
+            </div>
+            <div class="pricin-half">
+                <ul class="pricing-ullast">
+                    <li class="pricing-li"><p class="pricing-p">100MB HDD</p></li>
+                    <li class="pricing-li"><p class="pricing-p">1 subdomain</p></li>
+                    <li class="pricing-li"><p class="pricing-p">2 e-mails</p></li>
+                    <li class="pricing-li"><p class="pricing-p">Two years License</p></li>
+                    <li class="pricing-li"><p class="pricing-p">Full support</p></li>
+                </ul>
+            </div>
+
         </div>
 
     </div>
@@ -154,8 +169,12 @@
             <h3 class="contact-title">Any questions?</h3>
             <p class="contact-title2">Please leave a message</p>
             <p class="contact-title3">
-                <img src="assets/mail-icon.svg" alt="">  info@bestshop.xyz
-                <img src="assets/phone-icon.svg" alt="">  987678432
+            <div>
+                <img src="assets/mail-icon.svg" alt=""> info@bestshop.xyz
+            </div>
+            <div>
+                <img src="assets/phone-icon.svg" alt=""> 987678432
+            </div>
             </p>
         </div>
         <div class="contact-right">
@@ -171,7 +190,11 @@
                 <label class="form-chechbox">
                     <input type="checkbox" class="form-checkbox">
                 </label>
-                <p class="checkbox-text">I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)</p>
+                <p class="checkbox-text">I hereby give consent for my personal data included in my application to be
+                    processed for the purposes of the recruitment process under the European Parliament’s and Council of
+                    the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard
+                    to the processing of personal data and on the free movement of such data, and repealing Directive
+                    95/46/EC (Data Protection Directive)</p>
             </div>
             <div class="form-row2">
                 <button type="submit" class="form-btn">
@@ -188,8 +211,8 @@
     <div class="container">
         <div class="footer-container">
             <div>
-            <p class="footer-title">BestShop</p>
-            <p class="footer-title-text">Copywright blablabla</p>
+                <p class="footer-title">BestShop</p>
+                <p class="footer-title-text">Copywright blablabla</p>
             </div>
             <div>
                 <img class="footer-image" src="assets/facebook.svg" alt="">

@@ -1,0 +1,130 @@
+
+.contact{
+  height: 712px;
+  width:100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media #{$media-phone} {
+    height: 800px;
+    align-items: flex-start;
+  }
+}
+.section-contact{
+  height: 376px;
+  width: 896px;
+  background-color: white;
+  display: flex;
+  @media #{$media-phone} {
+    flex-direction: column;
+  }
+}
+.contact-left {
+  width: 50%;
+  height:100%;
+  justify-content: flex-start;
+  @media #{$media-phone} {
+    width: 80%;
+    margin-left: 25px;
+
+
+  }
+}
+.contact-right {
+  width: 50%;
+  height: 100%;
+  justify-content: flex-start;
+  @media #{$media-phone} {
+    width: 80%;
+    margin-left: 25px;
+
+
+  }
+}
+.form-row1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.form-btn {
+  width: 180px;
+  height: 60px;
+  border: 4px solid $kolor-blue;
+  background-color: $kolor-blue;
+  color:white;
+  padding: 10px 50px 10px 50px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.35);
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-row2{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+}
+.contact-title{
+  font-family: $font-raleway;
+  font-size: 57px;
+  padding-bottom: 22px;
+}
+.contact-title2{
+  font-family: $font-sans;
+  font-size: 22px;
+  padding-bottom: 42px;
+}
+.contact-title3{
+  font-family: $font-sans;
+  font-size: 22px;
+  color: #A5A5A5;
+  word-spacing: 10px;
+
+}
+
+.form-row{
+  display: flex;
+  justify-content: flex-start;
+}
+.form-row1{
+  color: $kolor-blue;
+  font-family: $font-sans;
+  font-size: 15px;
+  letter-spacing: 4px;
+  font-weight: 800;
+}
+.form-input{
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 2px solid #A5A5A5;
+}
+.checkbox-text{
+  color: #A5A5A5;
+  font-family: $font-sans;
+  font-size: 17px;
+}
+
+.form-chechbox input{
+  width: 32px;
+  height: 32px;
+  border: 1px solid #d1d1d1;
+  border-radius: 6px;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+}
+.form-chechbox input:checked {
+  background-image: url(../assets/checkmark.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
